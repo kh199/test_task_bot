@@ -1,26 +1,12 @@
 # Голосовой бот для опросов
 
+Реализовано с помощью библиотеки SpeechRecognition
+
 Для тестирования нужно подключить микрофон
 
 ### Как запустить
-Клонировать репозиторий и перейти в него в командной строке:
-
-```
-git clone https://github.com/kh199/test_task_bot
-```
-
-Cоздать и активировать виртуальное окружение:
-```
-python -m venv venv
-```
-```
-source venv/scripts/activate
-```
 
 Установить зависимости из файла requirements.txt:
-```
-python -m pip install --upgrade pip
-```
 ```
 pip install -r requirements.txt
 ```
@@ -29,3 +15,9 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+---
+### Стек
++ Python 11
+
+### Автор
+**Екатерина Каричева** [kh199](https://github.com/kh199)
